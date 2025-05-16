@@ -22,7 +22,7 @@ img{
     top: 0px;
     bottom: 0px;
     background-repeat: repeat;
-    background-image: url(purple\ texture.png);
+    background-image: url(purpletexture.png);
     mix-blend-mode: multiply;
     height:2000px;
     background-size: 100%;
