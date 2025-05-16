@@ -1,0 +1,228 @@
+body{
+    font-size:21px;
+    line-height: 23px;
+    font-family:"EB-garamond", serif;
+    font-weight: 500;
+    font-optical-sizing: auto;
+    color:rgb(255, 255, 255);
+    background-color: black;
+    background:linear-gradient(to right,rgb(202, 118, 255),#ff0000, rgb(255, 85, 7),rgb(255, 25, 125),rgb(202, 118, 255),black);
+    background-size: 1500px;
+    margin:0px;
+    padding: 20px;
+    position: relative;
+    text-align: justify;
+}
+img{
+    width:100%;
+}
+.truegrit{
+    margin:-20px;
+    position:fixed; z-index: -2;
+    top: 0px;
+    bottom: 0px;
+    background-repeat: repeat;
+    background-image: url(purple\ texture.png);
+    mix-blend-mode: multiply;
+    height:2000px;
+    background-size: 100%;
+    opacity: 50%;
+    width: 100%;
+}
+div.Btitle{
+    font-size: 200px;
+    line-height:220px;
+    font-family: "lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    text-shadow:0 0 20px white;
+}
+div.Mtitle{
+    font-size: 70px;
+    line-height:80px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    text-shadow:0 0 25px white;
+    padding-top: 20px;
+}
+div.highlight{
+    font-size: 40px;
+    line-height:45px;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: italic;
+    text-shadow:0 0 25px white;
+}
+div.quote{
+    font-family: "EB-garamond", serif;
+    font-size:29px;
+    line-height: 31px;
+    font-style: italic;
+    font-weight: 800px;
+}
+div.mt{
+    margin-top: 350px;
+}
+div.smt{
+    margin-top: 200px;
+}
+div.container{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+div.width50{
+    width:50%;
+}
+div.width35{
+    width: 35%;
+}
+div.width33{
+    width: 33%;
+}
+div.width25{
+    width:25%;
+}
+div.width30{
+    width: 30%;
+}
+div.mr{
+    margin-right: 20px;
+}
+div.ml{
+    margin-left: 20px;
+}
+div.bml{
+    margin-left:95px
+}
+div.ar{
+    text-align: right;
+}
+div.ac{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.al{
+    text-align: left;
+}
+div.pt{
+    padding-top: 200px;
+}
+div.spt{
+    padding-top: 10px;
+}
+div.italic{
+    font-style: italic;
+}
+div.imgs{
+    width: 30%;
+}
+.video{
+    width: 25%;
+    bottom: 20px;
+    z-index: 3;
+    position: fixed;
+    padding-left: 1050px;
+}
+div.bggreen{
+    background-color: greenyellow;
+    margin: -20px;
+}
+div.height{
+    height:7px;
+}
+div.removemargin{
+    margin: 0px;
+    padding: -20px;
+}
+div.pbb{
+    padding-bottom: 450px;
+}
+div.pbs{
+    padding-bottom: 100px;
+}
+div.pbss{
+    padding-bottom: 25px;
+}
+div.ho{
+    opacity: 60%;
+}
+.topmarquee {
+    color:greenyellow;
+    font-family: 'VT323', monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: -20px;
+    z-index: 3;
+  }
+.topmarquee span{
+    display:inline-block;
+    animation: scroll-left 20s linear infinite;
+}
+.bottommarqee {
+    color:greenyellow;
+    font-family: 'VT323', monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: -20px;
+    z-index: 3;
+  }
+.bottommarqee span{
+    display:inline-block;
+    animation: scroll-right 15s linear infinite;
+}
+@keyframes scroll-right{
+    100%{transform:translateX(100%)}
+    0%{transform:translateX(0%)}
+}
+
+@keyframes scroll-left{
+    0% {transform:translateX(100%)}
+    100% {transform: translateX(-100%)}
+}
+div.width20{
+    width: 20%;
+}
+div.width19{
+    width:19%
+}
+div.width20.ml.ac:hover{
+    transform:translateY(-20px);
+}
+div.width19.ml.ac:hover{
+    transform:translateY(-20px);
+}
+div.lefthand.width50.mt{
+    padding-left: -20px;
+    margin-left: -20px;
+    position: relative;
+    z-index: -1;
+}
+div.width20.ml.ac{
+    position: relative;
+    z-index: 2;
+    bottom: 200px;
+}
+div.width19.ml.ac{
+    z-index: 1;
+    position: relative;
+    bottom:200px
+}
+div.bhand{
+    position: relative;
+    z-index: -1;
+    padding-right:-20px;
+    margin-right:-20px;
+    float: right;
+}
