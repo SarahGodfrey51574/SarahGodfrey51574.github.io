@@ -64,6 +64,13 @@ div.quote{
     font-style: italic;
     font-weight: 800px;
 }
+div.maintext{
+    font-family: "EB-garamond",serif;
+    font-size:29px;
+    line-height:31px;
+    font-style: normal;
+    font-weight: 800px;
+}
 div.mt{
     margin-top: 350px;
 }
@@ -78,6 +85,9 @@ div.container{
 div.width50{
     width:50%;
 }
+div.width53{
+    width: 53%;
+}
 div.width35{
     width: 35%;
 }
@@ -87,14 +97,23 @@ div.width33{
 div.width25{
     width:25%;
 }
+div.width40{
+    width:40%;
+}
 div.width30{
     width: 30%;
+}
+div.width85{
+    width: 85%;
 }
 div.mr{
     margin-right: 20px;
 }
 div.ml{
     margin-left: 20px;
+}
+div.bmr{
+    margin-right: 120px;
 }
 div.bml{
     margin-left:95px
@@ -127,7 +146,7 @@ div.imgs{
     bottom: 20px;
     z-index: 3;
     position: fixed;
-    padding-left: 1050px;
+    right:20px;
 }
 div.bggreen{
     background-color: greenyellow;
@@ -161,7 +180,7 @@ div.ho{
     top: 0;
     width: 100%;
     padding: -20px;
-    z-index: 3;
+    z-index: 4;
   }
 .topmarquee span{
     display:inline-block;
@@ -176,7 +195,7 @@ div.ho{
     bottom: 0;
     width: 100%;
     padding: -20px;
-    z-index: 3;
+    z-index: 4;
   }
 .bottommarqee span{
     display:inline-block;
@@ -221,8 +240,9 @@ div.width19.ml.ac{
 }
 div.bhand{
     position: relative;
-    z-index: -1;
-    padding-right:-20px;
-    margin-right:-20px;
-    float: right;
+    z-index: 0;
+    padding-right:0px;
+    margin-right:0px;
+    overflow-x: hidden;
+    left: 20px;
 }
