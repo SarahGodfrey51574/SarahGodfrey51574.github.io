@@ -167,6 +167,9 @@ div.al{
 div.pt{
     padding-top: 200px;
 }
+div.mpt{
+    padding-top: 25px;
+}
 div.spt{
     padding-top: 10px;
 }
@@ -179,7 +182,7 @@ div.imgs{
 .video{
     width: 25%;
     bottom: 20px;
-    z-index: 3;
+    z-index: 4;
     position: fixed;
     right:20px;
 }
@@ -215,7 +218,7 @@ div.ho{
     top: 0;
     width: 100%;
     padding: -20px;
-    z-index: 4;
+    z-index: 5;
   }
 .topmarquee span{
     display:flex;
@@ -230,7 +233,7 @@ div.ho{
     bottom: 0;
     width: 100%;
     padding: -20px;
-    z-index: 4;
+    z-index: 5;
   }
 .bottommarqee span{
     display:flex;
@@ -306,7 +309,7 @@ body.update{
     display: none;
     align-items: center;
     justify-content: center;
-    z-index: 2;
+    z-index: 4;
     cursor: pointer;
   }
   
@@ -314,3 +317,10 @@ body.update{
     display: flex;
     flex-wrap: wrap;
   }
+div.Vfont{
+    font-family: 'VT323', monospace;
+    font-size: 21px;
+    color: greenyellow;
+    z-index: 3;
+    position: fixed;
+}
