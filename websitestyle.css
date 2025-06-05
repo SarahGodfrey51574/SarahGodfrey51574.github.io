@@ -57,6 +57,14 @@ img{
     box-shadow:0px 0px 10px white;
     transition: box-shadow 1s ease;
 }
+.droneglowimage img{
+    box-shadow:0px 0px 10px white;
+    transition: box-shadow 1s ease;
+}
+.erikglowimage img{
+    box-shadow:0px 0px 10px white;
+    transition: box-shadow 1s ease;
+}
 .bglowimage img{
     box-shadow: 0px 0px 50px white;
     transition: box-shadow 1s ease;
@@ -281,8 +289,16 @@ div.techgnosticwidth35{
     width: 35%;
     transition: all 1s ease;
 }
+div.daylitwidth35{
+    width: 35%;
+    transition: all 1s ease;
+}
 div.fantasywidth50{
     width: 50%;
+    transition: all 1s ease;
+}
+div.dronewidth35{
+    width: 35%;
     transition: all 1s ease;
 }
 div.width70{
